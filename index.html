@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أحمد آل محمد - صفحة شخصية</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #667eea;
+            margin-bottom: 20px;
+            background: #f0f0f0;
+            display: inline-block;
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card h2 {
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .contact-info li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #f8f9ff;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill-tag {
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="profile-img"></div>
+            <h1>أحمد آل محمد</h1>
+            <p class="subtitle">مهندس ومطور مستقل</p>
+            <p>أهلاً وسهلاً بكم في صفحتي الشخصية</p>
+        </header>
+        
+        <div class="content">
+            <div class="card">
+                <h2>نبذة عني</h2>
+                <p>مهندس ومطور مستقل من الكويت، أعمل في مجال تطوير البرمجيات وأسعى دائماً لتعلم التقنيات الحديثة وتطبيقها في مشاريعي.</p>
+                <p>لدي شغف بالبرمجة والتطوير وأحب العمل على مشاريع مبتكرة تحل مشاكل حقيقية.</p>
+            </div>
+            
+            <div class="card">
+                <h2>معلومات الاتصال</h2>
+                <ul class="contact-info">
+                    <li><strong>البريد الإلكتروني:</strong> A.7MODI.959@GMAIL.COM</li>
+                    <li><strong>الموقع:</strong> الكويت</li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/AHMAD97975" target="_blank">AHMAD97975</a></li>
+                    <li><strong>الحالة:</strong> متاح للعمل المستقل</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h2>المهارات التقنية</h2>
+                <div class="skills">
+                    <span class="skill-tag">HTML & CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Git & GitHub</span>
+                    <span class="skill-tag">Web Development</span>
+                    <span class="skill-tag">Software Engineering</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>المشاريع</h2>
+                <p>أعمل على تطوير مشاريع متنوعة في مجال البرمجة وتطوير الويب.</p>
+                <p>يمكنكم الاطلاع على أعمالي من خلال زيارة صفحتي على GitHub.</p>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <p>&copy; 2025 أحمد آل محمد - جميع الحقوق محفوظة</p>
+            <p>تم إنشاء هذا الموقع باستخدام GitHub Pages</p>
+        </footer>
+    </div>
+</body>
+</html>
