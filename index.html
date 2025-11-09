@@ -1250,7 +1250,7 @@
             <button class="btn" id="download-pdf" data-aos="zoom-in">
                 <i class="fas fa-download"></i> تحميل السيرة الذاتية PDF
             </button>
-            <a href="#" class="btn btn-secondary" id="view-portfolio" data-aos="zoom-in" data-aos-delay="100">
+            <a href="https://ahmad97975.github.io/portfolio/" class="btn btn-secondary" id="view-portfolio" data-aos="zoom-in" data-aos-delay="100">
                 <i class="fas fa-globe"></i> عرض معرض الأعمال
             </a>
         </div>
@@ -1359,7 +1359,6 @@
             sections.forEach(section => {
                 const sectionTop = section.offsetTop - 100;
                 const sectionHeight = section.offsetHeight;
-                
                 if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
                     currentSection = section.id;
                 }
@@ -1560,7 +1559,7 @@
 
         // Add click sound effect (optional)
         function addClickSound() {
-            const audio = new Audio('data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhCjOE1+/LfiECII3P7+KVQQ4SAAA=');
+            const audio = new Audio('data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivoJhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhCjOE1+/LfiECII3P7+KVQQ4SAAA=');
             audio.volume = 0.1;
             audio.play().catch(() => {}); // Ignore errors if audio can't play
         }
